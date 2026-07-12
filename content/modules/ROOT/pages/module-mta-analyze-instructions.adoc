@@ -19,7 +19,7 @@ You will see existing application in the inventory such as *Customers*, *Orders*
 
 image::mta-analyze/mta-application-inventory.png[application inventory]
 
-The user experience in MTA 7 revolves around the **Application Inventory**, allowing organizations to have a holistic view of their application portfolio.
+The user experience in MTA revolves around the **Application Inventory**, allowing organizations to have a holistic view of their application portfolio.
 
 The inventory also offers seamless integration with other tools, like the https://access.redhat.com/documentation/en-us/migration_toolkit_for_applications/7.0/html/user_interface_guide/assessing-and-analyzing-applications#mta-assessment-changes-700_user-interface-guide[Assessment^] and https://access.redhat.com/documentation/en-us/migration_toolkit_for_applications/7.0/html/user_interface_guide/assessing-and-analyzing-applications#analyzing-an-application_user-interface-guide[Analysis^] modules, to surface information about the portfolio at scale.
 
@@ -94,7 +94,7 @@ The **Assessment module** provides a high level overview of a given application 
 
 === 3.1. Enabling the Containerization questionnaire
 
-All questionnaires are disabled by default on a brand new *MTA* install to allow users to define which questionnaires should be answered by the user to consider an application as _assessed_. **MTA 7** now includes https://access.redhat.com/documentation/en-us/migration_toolkit_for_applications/7.0/html-single/user_interface_guide/index#mta-custom-questionnaire_user-interface-guide[the possibility of authoring custom questionnaires by using a YAML syntax^], but we will stick to the default _Containerization_ questionnaire for this exercise.
+All questionnaires are disabled by default on a brand new *MTA* install to allow users to define which questionnaires should be answered by the user to consider an application as _assessed_. **MTA** now includes https://access.redhat.com/documentation/en-us/migration_toolkit_for_applications/7.0/html-single/user_interface_guide/index#mta-custom-questionnaire_user-interface-guide[the possibility of authoring custom questionnaires by using a YAML syntax^], but we will stick to the default _Containerization_ questionnaire for this exercise.
 
 Click on the perspective selector on the left menu and select _Administration_. Once the perspective shifts, click on _Assessment Questionnaires_.
 

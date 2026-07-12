@@ -1,0 +1,14 @@
+/* Goal admonition: use with [.goal] on [NOTE] blocks (see migration coding assistant module). */
+.admonitionblock.goal {
+  border-left: 4px solid #0066cc;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 102, 204, 0.08) 0%,
+    rgba(0, 102, 204, 0.02) 100%
+  );
+}
+
+.admonitionblock.goal td.content {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

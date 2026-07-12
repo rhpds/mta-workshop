@@ -1,2 +1,3 @@
 * xref:module-mta-analyze-instructions.adoc[Assessment and Analysis]
-// * xref:module-mta-refactor-instructions.adoc[Refactor]
+* Migration coding assistant for MTA
+** xref:mta-mca-instructions.adoc[Instructions: goals, introduction, and exercises 1--4]
